@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
            else -> n1 / n2
         }.toString()
 
-        tvRes.text = "$value"
+        tvRes.text = value
 
 
 
