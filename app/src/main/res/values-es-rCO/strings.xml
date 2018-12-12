@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="suma">Sum</string>
+    <string name="resta">Res</string>
+    <string name="dividir">Div</string>
+    <string name="multi">Mul</string>
+    <string name="numero_1">Numero 1</string>
+    <string name="numero_2">Numero 2</string>
+    <string name="cero">0.0</string>
+</resources>

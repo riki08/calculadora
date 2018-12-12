@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">cursoKotlinLevel2</string>
+    <string name="app_name">Calculator</string>
+    <string name="suma">Add</string>
+    <string name="resta">Sub</string>
+    <string name="dividir">Div</string>
+    <string name="multi">Mul</string>
+    <string name="numero_1">Number 1</string>
+    <string name="numero_2">Number 2</string>
+    <string name="cero">0.0</string>
 </resources>

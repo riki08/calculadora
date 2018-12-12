@@ -6,43 +6,49 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="@dimen/small"
         tools:context=".MainActivity">
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:hint="Numero 1"
+              android:hint="@string/numero_1"
+              android:layout_marginBottom="@dimen/small"
+              android:inputType="number"
               android:gravity="center"/>
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/small"
               android:gravity="center"
-              android:hint="Numero2"/>
+              android:inputType="number"
+              android:hint="@string/numero_2"/>
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
+                  android:gravity="center"
                   android:orientation="horizontal">
 
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sum"/>
+                android:text="@string/suma"/>
 
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Res"/>
+                android:text="@string/resta"/>
 
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mul"/>
+                android:text="@string/multi"/>
 
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="div"/>
+                android:text="@string/dividir"/>
 
     </LinearLayout>
 
     <TextView android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:text="0.0"
+              android:text="@string/cero"
               android:textSize="90sp"
               android:gravity="center"/>
 
